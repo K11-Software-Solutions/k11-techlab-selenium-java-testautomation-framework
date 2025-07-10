@@ -110,3 +110,14 @@ git clone https://github.com/kavitaj11/k11techlab-selenium-java-e2e-test-automat
 mvn clean test -Dbrowser=chrome
 
 
+## 📄 License
+
+This framework is released under the **MIT License**. Feel free to fork, extend, and contribute.
+
+---
+
+## 📬 Contact
+
+For consulting, training, or implementation support:  
+🔗 [softwaretestautomation.org](https://www.softwaretestautomation.org)  
+📧 kavita.jadhav.sdet@gmail.com
