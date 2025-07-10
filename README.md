@@ -1,3 +1,5 @@
+# 🧱 K11 TechLab – Selenium Java Automation Framework
+
 # 🧰 Getting Started with the Java-Based End-to-End Test Automation Framework
 
 This Java-based test automation framework is designed to support **end-to-end test coverage** across web, API, and database layers, with seamless CI/CD integration and enterprise-grade extensibility.
@@ -110,14 +112,23 @@ git clone https://github.com/kavitaj11/k11techlab-selenium-java-e2e-test-automat
 mvn clean test -Dbrowser=chrome
 
 
-## 📄 License
-
-This framework is released under the **MIT License**. Feel free to fork, extend, and contribute.
-
----
+...
 
 ## 📬 Contact
 
 For consulting, training, or implementation support:  
 🔗 [softwaretestautomation.org](https://www.softwaretestautomation.org)  
 📧 kavita.jadhav.sdet@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔖 Acknowledgments
+
+- Inspired by modern framework practices and enterprise QA standards  
+- Built with ❤️ for maintainability, scalability, and real-world usage
