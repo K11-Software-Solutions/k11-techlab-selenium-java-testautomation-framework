@@ -102,23 +102,67 @@ The framework is composed of well-structured layers to ensure **modularity**, **
 
 ---
 
-## 🚀 Getting Started
+## 🔧 Setup & Configuration
+
+### 📦 Prerequisites
+
+- Java 11+  
+- Maven 3.6+  
+- Git  
+- Chrome or Firefox browser  
+- IDE (e.g., IntelliJ, Eclipse)
+
+### 🚀 Clone the Repository
 
 ```bash
-# Clone the repo
-git clone https://github.com/kavitaj11/k11techlab-selenium-java-e2e-test-automation-framework.git
+git clone https://github.com/K11-Software-Solutions/k11-techlab-selenium-java-automation-framework.git
+cd k11-techlab-selenium-java-automation-framework
+```
 
-# Run tests with Maven
-mvn clean test -Dbrowser=chrome
+### ⚙️ Configuration
 
+1. **Edit config files** in:
+   ```
+   src/test/resources/config/
+   ```
+   Customize:
+   - `baseUrl`
+   - `browser`
+   - Timeouts, credentials, etc.
 
-...
+2. **Ensure browser drivers** (e.g., ChromeDriver) are in system path or configured in test base.
 
-## 📬 Contact
+3. **Use TestNG XML** for specific suites:
+   ```
+   src/test/resources/testng/
+   ```
 
-For consulting, training, or implementation support:  
-🔗 [softwaretestautomation.org](https://www.softwaretestautomation.org)  
-📧 kavita.jadhav.sdet@gmail.com
+---
+
+## 🧪 Running Tests
+
+```bash
+mvn clean test
+mvn clean test -DsuiteXmlFile=smoke.xml
+```
+
+---
+
+## 📊 Reporting
+
+```bash
+mvn allure:report
+allure serve target/allure-results
+```
+
+---
+
+## 📦 Use Cases
+
+- UI regression and smoke testing  
+- Cross-browser automation  
+- Framework learning or extension baseline  
+- CI integration with test reporting
 
 ---
 
@@ -128,7 +172,8 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ---
 
-## 🔖 Acknowledgments
+## 📬 Contact
 
-- Inspired by modern framework practices and enterprise QA standards  
-- Built with ❤️ for maintainability, scalability, and real-world usage
+For consulting, training, or implementation support:  
+🔗 [softwaretestautomation.org](https://www.softwaretestautomation.org)  
+📧 kavita.jadhav.sdet@gmail.com
