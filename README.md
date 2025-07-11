@@ -1,6 +1,6 @@
 # 🧱 K11 TechLab – Selenium Java Automation Framework
 
-# 🧰 Getting Started with the Java-Based End-to-End Test Automation Framework
+🧰 Getting Started with the Java-Based End-to-End Test Automation Framework
 
 This Java-based test automation framework is designed to support **end-to-end test coverage** across web, API, and database layers, with seamless CI/CD integration and enterprise-grade extensibility.
 
