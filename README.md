@@ -24,7 +24,7 @@ Built entirely with open-source libraries, this framework is **fully extensible*
 
 ### 📊 High-Level Diagram
 
-![Selenium Automation Framework Architecture](testartifacts/assets/Selenium_Java_POM_E2E_Automation_Test_Infrastructure.png)
+![Selenium Automation Framework Architecture](testartifacts/assets/Selenium_Java_POM_E2E_Automation_Test_Infrastructure.jpg)
 
 > *Selenium Automation Framework Architecture — © 2025 Kavita Jadhav. All rights reserved.*
 
